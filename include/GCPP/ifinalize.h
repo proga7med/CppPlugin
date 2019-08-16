@@ -5,7 +5,7 @@
 
 namespace GC {
 
-    class GCPPSHARED_EXPORT IFinalize {
+    class IFinalize {
     public:
         virtual void finalize() = 0;
     };
